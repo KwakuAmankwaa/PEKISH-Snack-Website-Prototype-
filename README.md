@@ -6,3 +6,12 @@ http://eve.kean.edu/~amankwak/Pekish/Home.html
 
 
 
+
+Website Screenshots: 
+
+
+
+![pekishshot](https://github.com/KwakuAmankwaa/PEKISH-Snack-Website-Prototype-/assets/116598038/2bfeac87-afdf-4838-9c41-fd3ab7337c3f)
+![pekishshot2](https://github.com/KwakuAmankwaa/PEKISH-Snack-Website-Prototype-/assets/116598038/78eef18f-43dd-4362-86e5-8e62f27366a6)
+![pekishshot3](https://github.com/KwakuAmankwaa/PEKISH-Snack-Website-Prototype-/assets/116598038/996c0a9c-fdff-4a74-a98b-a5a0aeef0e4c)
+![pekishshot5](https://github.com/KwakuAmankwaa/PEKISH-Snack-Website-Prototype-/assets/116598038/55bc8c7a-552c-4618-9bc9-275f54fbd1a9)
