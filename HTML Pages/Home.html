@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+
+   <title>Home</title>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+   <link href="styles.css" rel="stylesheet">
+
+   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1047/1047711.png">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body style="background: white;">
+
+<!-- Script for Javascript typewriter. (The text that pops up when you press the button next to the cookie photot) -->
+<script>
+    var i = 0;
+    var txt = 'Pekish is an online shopping site that allows customers to purchase from a vast selection of snacks and drinks. We at Pekish will act as the middlemen in your ordering process. Along with the standard selection of goods, users will be able to purchase international products from places such as the UK, Russia, and even Eastern Asian countries.';
+    var speed = 20;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+</script>
+
+
+
+
+
+
+<!-- Navigation Bar -->
+
+  <nav class= "navbar navbar-expand-md navbar-light bg-light sticky-top" style="height:130px">
+   <div class="container-fluid">
+      <a class="navbar-brand" href="Home.html"><img src="Newone.png" style="height: 100%;" ></a>
+   
+
+   <!-- DropDown button. When you shrink the page, this appears -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" style="height:70px">
+
+
+            <!-- Home Nav Button -->
+
+            <li class="nav-item active">
+              <a class="nav-link" href="Home.html" style="margin-top: 30px; margin-right: 40px;"><ion-icon name="home-outline"></ion-icon> Home<span class="sr-only">(current)</span></a>
+            </li>
+
+
+            <!-- Shop Categories buttons with dropdown items -->
+
+            <div class="dropdown">
+            <li class="nav-item ">
+              <a class="nav-link" href="" style="margin-top: 30px; margin-right: 40px;"><ion-icon name="list-outline"></ion-icon> Shop Categories </a>
+
+
+
+                <div class="dropdown-content">
+                  <ul>
+                    <li><a class="nav-link" href="snacks.html">Snacks & Beverages</a></li>
+                    
+                  </ul>
+                </div>
+            </div>
+
+            </li>
+
+
+
+
+
+
+            <!-- Sign In button. Register option is on this page -->
+
+             <li class="nav-item ">
+              <a class="nav-link" href="Signin.html" style="margin-top: 30px; margin-right: 40px;"><ion-icon name="log-in-outline"></ion-icon> Sign In</a>
+            </li>
+
+           
+            
+
+
+
+
+
+
+
+        
+
+
+
+
+              </ul>
+        </div>
+
+
+
+
+
+
+
+
+  </div>
+
+        <!-- Account Icon, Name goes next to it once logged in. Seperate page called Home(LoggedIn) made specifically for those who have logged in properly -->
+
+        <lord-icon
+            src="https://cdn.lordicon.com/dxjqoygy.json"
+            trigger="hover"
+            colors="primary:#121331,secondary:#000000"
+            state="hover-nodding"
+            style="width:100px;height:60px;margin-top:30px">
+        </lord-icon>
+      
+
+        
+
+
+
+
+</nav> <!-- End of Navigation Bar -->
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Cookie Start Up Video -->
+
+        <video width="100%" height="100%" autoplay muted loop>
+          <source src="cookievid.mp4" type="video/mp4">
+        </video> 
+
+
+
+
+  <!-- Text on top of cookie video, along with credit so I dont get sued. -->
+
+        <div class="hero-text">
+          <h1 style="font-size:120px">Pekish</h1>
+          <p style="font-size: 20px">One Snack At a Time</p>
+              <p>
+              Stock footage provided by <a class="link author-link-popup" target="_blank" href="https://www.videvo.net/profile/vidfy-Freepik">Freepik</a>,
+              downloaded from <a class="videvo-redirect" target="_blank" href="https://www.videvo.net">videvo.net</a>
+              </p>
+
+                  
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Banner   -->
+<!-- This has the cookie image with a button which starts the typewritter -->
+
+
+<div class="BanBox" style="background: white;">
+
+<section class="home" id="home" style="padding: .5rem 9%; ">
+
+ 
+
+    <div class="image2"> 
+      <img src="banner.png" style="width:70%; height: 100%; margin-bottom: 80px; margin-left: 100px">
+    </div>
+
+    <div class="content">
+      
+      <h3>your daily need of banging snacks</h3>
+
+
+
+       <button onclick="typeWriter()" style="">Click me</button>
+       <p id="demo" style="margin-top:30px; font-size: 25px;"></p>
+      <!-- <a href="#" class="btn">Learn More</a>  Add that javascript typer from last site --> 
+      
+    </div>
+
+ 
+
+
+</section>
+</div>
+
+
+
+
+<div class="BanBox" style="background: #B48B6E; height: 800px; ">
+
+
+  <h3 style="margin-bottom: 5px; text-align: center; font-size: 70px">It's That Simple !</h3>
+
+
+
+ <section class="home" id="home" style="padding: 5rem 5%; ">
+
+
+
+
+
+
+
+  <div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+     
+
+
+
+
+     <lord-icon
+          src="https://cdn.lordicon.com/cllunfud.json"
+          trigger="loop"
+          colors="outline:#121331,primary:#646e78,secondary:#629110"
+          stroke="75"
+          style="width:250px;height:250px">
+    </lord-icon>
+
+      <h3>Browse & Purchase</h3>
+      <p>Get lost in our large catalog of snacks and beverages</p>
+    </div>
+
+
+  <div class="col-xs-12 col-sm-6 col-md-4">
+     
+    <lord-icon
+          src="https://cdn.lordicon.com/iejknaed.json"
+          trigger="loop"
+          colors="outline:#121331,primary:#3a3347,secondary:#e83a30,tertiary:#ebe6ef,quaternary:#646e78"
+          style="width:250px;height:250px">
+    </lord-icon>
+
+
+
+
+
+      <h3>Shipping</h3>
+      <p>Experience lightning-fast and dependable shipping that gets your orders delivered in a flash - every time.</p>
+    </div>
+
+
+  <div class="col-xs-12 col-sm-6 col-md-4">
+      
+
+    <lord-icon
+        src="https://cdn.lordicon.com/xxdqfhbi.json"
+        trigger="loop"
+        colors="primary:#242424,secondary:#e83a30,tertiary:#e8e230"
+        style="width:250px;height:250px">
+    </lord-icon>
+
+
+
+
+
+      <h3>Snack Time</h3>
+      <p>Enjoy your awaited snacks as they arrive - the taste adventure begins now.</p>
+    </div>
+
+
+
+
+</section>
+</div>
+
+
+
+
+<!-- In this section I need you to call the names of each item from the database later. Not now cause I need to change the items -->
+
+
+<section style="background: white;">
+  <h1 class="heading">Featured Snacks</h1>
+      <div class="box-container" style="margin-top: -120px;">
+
+        <div class="box">
+          <img src="swedishfish.png" alt="">
+          <h3>SWEDISH FISH Soft & Chewy Candy, Easter Candy, 3.1 Oz Box</h3>
+      
+            
+
+        </div>
+   
+
+    <div class="box">
+      <img src="sunchips.png" alt="">
+      <h3>SunChips Original Multigrain Snacks, 7 Ounce</h3>
+            
+    </div>
+    
+
+
+    <div class="box">
+      <img src="beanbooze.png" alt="">
+      <h3>Jelly Belly BeanBoozled Jelly Beans Spinner, 3.5 Ounce (Pack Of 1)</h3>
+           
+    </div>
+    
+      </div>
+   
+
+
+</section>
+
+
+
+<section>
+  <h1 class="heading">Featured Beverages</h1>
+  
+    <div class="box-container" style="margin-top: -120px;" >
+
+        <div class="box">
+          <img src="nesquik.png" alt="">
+          <h3>Nestle Nesquik Chocolate Lowfat Milk, Ready To Drink</h3>
+      
+           
+
+        </div>
+   
+
+      <div class="box">
+        <img src="liquiddeath.png" alt="">
+        <h3>Liquid Death 100% Mountain Water, 16.9 Fl Oz, Quantity Of 12 Count Cans</h3>
+              
+      </div>
+    
+
+
+      <div class="box">
+        <img src="v8splash.png" alt="">
+        <h3>V8 Splash Fruit Medley Flavored Juice Blend, 64 FL OZ Bottle</h3>
+              
+      </div>
+    
+    </div>
+   
+
+
+</section>
+
+
+<section style= "background: white;">
+  <h1 class="heading">International Goods</h1>
+      <div class="box-container" style="margin-top: -120px;">
+
+        <div class="box">
+          <img src="pocky.png" alt="">
+          <h3>Pocky Chocolate Cream Covered Biscuit Sticks, 1.41 Oz</h3>
+      
+            
+
+        </div>
+   
+
+    <div class="box">
+      <img src="maltesers.png" alt="">
+      <h3>Maltesers Maltesers Stand Up Pouch, 5.8 Oz</h3>
+            
+    </div>
+    
+
+
+    <div class="box">
+      <img src="banana.png" alt="">
+      <h3>Banana Flavored Milk Drink 6.8oz(200ml) 6 Packs</h3>
+            
+    </div>
+    
+      </div>
+   
+
+
+</section>
+
+
+
+
+
+
+
+
+<footer style="background: black; margin-top: 150px">
+
+ <img src="PEKISH.png" style="width:440px; margin-left: 730px; ">
+  
+</footer>
+
+
+
+
+
+
+
+<!-- Ionic Icons Script -->
+<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+
+
+
+
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="cart.js"></script>
+</body>
+</html>
+

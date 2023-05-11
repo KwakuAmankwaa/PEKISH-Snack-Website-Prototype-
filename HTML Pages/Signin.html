@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign In</title>
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1047/1047711.png">
+   <link href="styles.css" rel="stylesheet">
+
+
+
+
+
+<!-- Find somewhere else to put this. -->
+
+<style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Lato&family=Shantell+Sans:ital@1&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Heebo', sans-serif;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+	background: green;
+	background: url(''); /*Look for something snazzy) */
+	background-position: ;
+	background-size
+}
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+</head>
+
+<body style="background-image: url('signbanner2.jpg'); background-size: cover; background-repeat: no-repeat; ">
+
+<!-- Navigation -->
+
+  <nav class= "navbar navbar-expand-md navbar-light bg-light sticky-top" style="height:130px">
+   <div class="container-fluid">
+      <a class="navbar-brand" href="Home.html"><img src="Newone.png" style="height: 100%;" ></a>
+   
+
+   <!-- DropDown button. When you shrink the page, this appears -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" style="height:70px">
+
+
+            <!-- Home Nav Button -->
+
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html" style="margin-top: 30px; margin-right: 40px;"><ion-icon name="home-outline"></ion-icon> Home<span class="sr-only">(current)</span></a>
+            </li>
+
+
+            <!-- Shop Categories buttons with dropdown items -->
+
+            <div class="dropdown">
+            <li class="nav-item ">
+              <a class="nav-link" href="" style="margin-top: 30px; margin-right: 40px;"><ion-icon name="list-outline"></ion-icon> Shop Categories </a>
+
+
+
+                <div class="dropdown-content">
+                  <ul>
+                    <li><a class="nav-link" href="snacks.html">Snacks & Beverages</a></li>
+                   
+                  </ul>
+                </div>
+            </div>
+
+            </li>
+
+
+
+
+
+
+            <!-- Sign In button. Register option is on this page -->
+
+             <li class="nav-item active ">
+              <a class="nav-link" href="Signin.html" style="margin-top: 30px; margin-right: 40px;"><ion-icon name="log-in-outline"></ion-icon> Sign In</a>
+            </li>
+
+           
+          
+              </ul>
+        </div>
+
+
+
+
+
+
+
+
+  </div>
+
+        <!-- Account Icon, Name goes next to it once logged in. Seperate page called Home(LoggedIn) made specifically for those who have logged in properly -->
+
+        <lord-icon
+            src="https://cdn.lordicon.com/dxjqoygy.json"
+            trigger="hover"
+            colors="primary:#121331,secondary:#000000"
+            state="hover-nodding"
+            style="width:100px;height:60px;margin-top:30px">
+        </lord-icon>
+      
+
+        
+
+
+
+
+</nav> <!-- End of Navigation Bar -->
+
+
+
+
+
+
+
+<!-- Sign IN / Register Window -->
+<!-- Once user types in his information, check to see if they are in the database. When users register, insert them into the user table. -->
+
+<section>
+		<div class="Signbox">
+			<div class="form-value">
+				<form action="">
+			
+					<h2>Sign In</h2>
+
+						<div class= "inputs">
+							<ion-icon name="mail-outline"></ion-icon>
+							<input type="email" required>
+							<label for="">Email</label>
+						</div>
+
+						<div class= "inputs">
+							<ion-icon name="lock-closed-outline"></ion-icon>
+							<input type="password" required>
+							<label for="">Password</label>
+						</div>
+
+
+
+						<div class="forgot">
+							<label for=""><input type="checkbox">Remember Me </label>
+							
+						</div>
+
+
+
+						<button>Sign in</button>
+						<div class="register">
+							<p>Dont have a account? <a href="Register.html" style="font-size: 16px; "> Register</p>
+						</div>
+				</form>
+
+			</div>
+
+
+
+
+     
+		</div>
+</section>
+
+		
+
+<footer style="background: black; margin-top: 150px">
+
+ <img src="PEKISH.png" style="width:440px; margin-left: 730px; ">
+  
+</footer>
+
+
+
+<!-- Ionic Icons Script -->
+<script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script src="cart.js"></script>
+</body>
+</html>
